@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.Testcase12">
+        <methods>
+          <include name="payment_mode_checking"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testCases.Testcase12 -->
+      <class name="testCases.Testcase10">
+        <methods>
+          <include name="updatecart"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testCases.Testcase10 -->
+      <class name="testCases.Testcase5new">
+        <methods>
+          <include name="Searchitems"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testCases.Testcase5new -->
+      <class name="testCases.Testcase11">
+        <methods>
+          <include name="checkoutprocess"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testCases.Testcase11 -->
+      <class name="testCases.Testcase3">
+        <methods>
+          <include name="editdemo"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testCases.Testcase3 -->
+      <class name="testCases.Testcase4">
+        <methods>
+          <include name="editdemo2"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testCases.Testcase4 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
